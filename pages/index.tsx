@@ -7,30 +7,36 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Khoudir Yaya</title>
-        <meta name="description" content="web developer portfolio" />
+        <title>Khoudir Yaya portfolio</title>
+        <meta
+          name="description"
+          content="I'm a full stack javaScript developer specialised in Next.js, React.js, Node.js, Express.js, Mongodb"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Khoudir Yaya Portfolio!</h1>
+        <div>
+          <h1 className={styles.title}>
+            Hi, I&apos;m <span style={{ color: "blueviolet" }}>Khoudir</span>!
+          </h1>
 
-        <p className={styles.description}>
-          Website under construction. Please visite later
-        </p>
+          <p className={styles.description}>
+            I&apos;m a full stack javaScript developer specialised in Next.js,
+            React.js, Node.js, Express.js, Mongodb.
+          </p>
+        </div>
+        <div>Avatar</div>
       </main>
 
       <footer className={styles.footer}>
-        {/* <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
+        <a
+          href="https://github.com/yakhousam"
           rel="noopener noreferrer"
+          target="_blank"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a> */}
+          github
+        </a>
       </footer>
     </div>
   );
