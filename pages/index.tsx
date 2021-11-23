@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div>
           <h1 className={styles.title}>
-            Hi, I&apos;m <span style={{ color: "blueviolet" }}>Khoudir</span>!
+            Hi, I&apos;m <span className={styles.myname}>Khoudir</span>!
           </h1>
 
           <p className={styles.description}>
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             React.js, Node.js, Express.js, Mongodb.
           </p>
         </div>
-        <div>Avatar</div>
+        <div className={styles.avatar} />
       </main>
 
       <footer className={styles.footer}>

@@ -9,12 +9,12 @@
 .main {
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .title {
   font-size: 4rem;
+  margin-top: 0;
 }
 
 .description {
@@ -23,4 +23,22 @@
 
 .footer {
   width: 100%;
+}
+
+.avatar {
+  background-image: url("/me.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  min-height: 150px;
+  min-width: 130px;
+  position: relative;
+  opacity: 0.7;
+}
+
+.myname {
+  color: #ffd644;
 }

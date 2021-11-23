@@ -9,3 +9,8 @@ body {
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #1f2028;
+  color: #fff;
+}
