@@ -1,3 +1,24 @@
-.header a {
-  margin-right: 1rem;
+.header {
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+.link {
+  margin-right: 1.5rem;
+  color: #a9adc1;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.link:first-child {
+  margin-right: auto;
+}
+.link:last-child {
+  margin-right: 0;
+}
+.icon {
+  vertical-align: bottom;
+  transform: rotate(-20deg);
+}
+.link:hover {
+  color: #fff;
 }

@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import { FaGithub, FaFreeCodeCamp, FaTwitter } from "react-icons/fa";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -31,11 +31,28 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
+          aria-label="Link to Khoudir Yaya FreeCodeCamp account"
+          href="https://www.freecodecamp.org/yakhousam"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <FaFreeCodeCamp />
+        </a>
+        <a
+          aria-label="Link to Khoudir Yaya github account"
           href="https://github.com/yakhousam"
           rel="noopener noreferrer"
           target="_blank"
         >
-          github
+          <FaGithub />
+        </a>
+        <a
+          aria-label="Link to Khoudir Yaya twitter account"
+          href="https://twitter.com/yksamir"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <FaTwitter />
         </a>
       </footer>
     </div>
