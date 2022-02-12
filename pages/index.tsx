@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          aria-label="Link to Khoudir Yaya FreeCodeCamp account"
+          aria-label="Khoudir Yaya FreeCodeCamp account"
           href="https://www.freecodecamp.org/yakhousam"
           rel="noopener noreferrer"
           target="_blank"
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           <FaFreeCodeCamp />
         </a>
         <a
-          aria-label="Link to Khoudir Yaya github account"
+          aria-label="Khoudir Yaya github account"
           href="https://github.com/yakhousam"
           rel="noopener noreferrer"
           target="_blank"
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           <FaGithub />
         </a>
         <a
-          aria-label="Link to Khoudir Yaya twitter account"
+          aria-label="Khoudir Yaya twitter account"
           href="https://twitter.com/yksamir"
           rel="noopener noreferrer"
           target="_blank"
