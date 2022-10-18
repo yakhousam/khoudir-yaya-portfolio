@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         <title>Khoudir Yaya portfolio</title>
         <meta
           name="description"
-          content="I'm a full stack javaScript developer specialised in Next.js, React.js, Node.js, Express.js, Mongodb"
+          content="khoudir yaya, freelancer full-stack React, Node, NextJS, ExpessJS, Monogdb"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,8 +22,8 @@ const Home: NextPage = () => {
           </h1>
 
           <p className={styles.description}>
-            I&apos;m a full stack javaScript developer specialised in Next.js,
-            React.js, Node.js, Express.js, Mongodb.
+            I&apos;m a full-stack JavaScript developer with expertise in
+            Next.js, React.js, Node.js, Express.js and Mongodb.
           </p>
         </div>
         <div className={styles.avatar} />
