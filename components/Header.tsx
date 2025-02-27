@@ -10,12 +10,12 @@ export function Header() {
           Khoudir Yaya . <FaDev className={styled.icon} />
         </a>
       </Link>
-      <Link href="/projects">
+      {/* <Link href="/projects">
         <a className={styled.link}>Projects</a>
       </Link>
       <Link href="/contact">
         <a className={styled.link}>Contact</a>
-      </Link>
+      </Link> */}
     </header>
   );
 }
