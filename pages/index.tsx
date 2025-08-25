@@ -1,6 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { FaGithub, FaFreeCodeCamp, FaTwitter } from "react-icons/fa";
+import {
+  FaGithub,
+  FaFreeCodeCamp,
+  FaTwitter,
+  FaLinkedin,
+  FaUser,
+} from "react-icons/fa";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -53,6 +59,22 @@ const Home: NextPage = () => {
           target="_blank"
         >
           <FaTwitter />
+        </a>
+        <a
+          aria-label="Khoudir Yaya LinkedIn profile"
+          href="https://www.linkedin.com/in/khoudir-yaya/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          aria-label="Khoudir Yaya PeoplePerHour profile"
+          href="https://pph.me/yakhousam"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <FaUser />
         </a>
       </footer>
     </div>
