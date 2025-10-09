@@ -10,6 +10,8 @@ import {
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className={styles.container}>
       <Head>
@@ -36,46 +38,59 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          aria-label="Khoudir Yaya FreeCodeCamp account"
-          href="https://www.freecodecamp.org/yakhousam"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <FaFreeCodeCamp />
-        </a>
-        <a
-          aria-label="Khoudir Yaya github account"
-          href="https://github.com/yakhousam"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <FaGithub />
-        </a>
-        <a
-          aria-label="Khoudir Yaya twitter account"
-          href="https://twitter.com/yksamir"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <FaTwitter />
-        </a>
-        <a
-          aria-label="Khoudir Yaya LinkedIn profile"
-          href="https://www.linkedin.com/in/khoudir-yaya/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <FaLinkedin />
-        </a>
-        <a
-          aria-label="Khoudir Yaya PeoplePerHour profile"
-          href="https://pph.me/yakhousam"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <FaUser />
-        </a>
+        <div className={styles.socialLinks}>
+          <a
+            aria-label="Khoudir Yaya FreeCodeCamp account"
+            href="https://www.freecodecamp.org/yakhousam"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaFreeCodeCamp />
+          </a>
+          <a
+            aria-label="Khoudir Yaya github account"
+            href="https://github.com/yakhousam"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaGithub />
+          </a>
+          <a
+            aria-label="Khoudir Yaya twitter account"
+            href="https://twitter.com/yksamir"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaTwitter />
+          </a>
+          <a
+            aria-label="Khoudir Yaya LinkedIn profile"
+            href="https://www.linkedin.com/in/khoudir-yaya/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            aria-label="Khoudir Yaya PeoplePerHour profile"
+            href="https://pph.me/yakhousam"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaUser />
+          </a>
+        </div>
+        <p className={styles.copyright}>
+          © {currentYear} Yaya Khoudir — Auto-Entrepreneur. Creator of{" "}
+          <a
+            href="https://www.affirvia.life/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.affriviaLink}
+          >
+            Affirvia
+          </a>
+        </p>
       </footer>
     </div>
   );

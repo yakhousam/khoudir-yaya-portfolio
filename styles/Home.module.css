@@ -24,12 +24,41 @@
 
 .footer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
-.footer a {
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialLinks a {
   color: #fff;
   font-size: 2.5rem;
   text-decoration: none;
-  margin-right: 1.5rem;
+}
+
+.copyright {
+  font-size: 0.875rem;
+  color: #999;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.affriviaLink {
+  color: #ffd644;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.affriviaLink:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 .avatar {
